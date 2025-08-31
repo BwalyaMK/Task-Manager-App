@@ -1,4 +1,4 @@
-<script lang="js">
+<script setup lang="js">
 
 import { useForm, router, Link } from '@inertiajs/vue3'
 import { ref, computed, watch } from 'vue'
