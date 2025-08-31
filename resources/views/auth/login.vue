@@ -1,6 +1,6 @@
-<script setup>
+<script lang="js">
 import { useForm } from '@inertiajs/vue3'
-import GuestLayout from '@/Layouts/GuestLayout.vue'
+import GuestLayout from '@/layouts/GuestLayout.vue'
 
 const form = useForm({
   email: '',
