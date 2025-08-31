@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="js">
 import RegisteredUserController from '@/actions/App/Http/Controllers/Auth/RegisteredUserController';
 import InputError from '@/components/InputError.vue';
 import TextLink from '@/components/TextLink.vue';

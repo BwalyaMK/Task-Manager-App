@@ -1,4 +1,5 @@
-<script setup>
+<script lang="js">
+
 import { useForm, router, Link } from '@inertiajs/vue3'
 import { ref, computed, watch } from 'vue'
 
@@ -18,7 +19,7 @@ const selectedStatus = ref(props.filters?.status || '')
 let searchTimer = null
 
 // Watch for search changes with debounce
-watch(search, (value) => {
+watch(search, () => {
   clearTimeout(searchTimer)
   searchTimer = setTimeout(() => {
     applyFilters()

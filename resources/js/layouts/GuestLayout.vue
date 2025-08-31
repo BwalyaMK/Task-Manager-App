@@ -1,4 +1,4 @@
-<script setup>
+<script lang="js">
 import { Link } from '@inertiajs/vue3'
 </script>
 
