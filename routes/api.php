@@ -1,8 +1,6 @@
 <?php
 
-// ============================================
-// 12. API ROUTES - routes/api.php
-// ============================================
+
 use App\Http\Controllers\Api\TaskController as ApiTaskController;
 use App\Http\Controllers\Api\CategoryController as ApiCategoryController;
 use App\Http\Controllers\Auth\AuthenticatedSessionController;

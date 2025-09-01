@@ -1,8 +1,5 @@
 <?php
 
-// ============================================
-// 8. CATEGORY RESOURCE - Http/Resources/CategoryResource.php
-// ============================================
 namespace App\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;

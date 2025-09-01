@@ -1,8 +1,5 @@
 <?php
 
-// ============================================
-// 2. UPDATED TASK MODEL - Task.php
-// ============================================
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;

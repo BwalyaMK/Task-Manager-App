@@ -1,8 +1,5 @@
 <?php
 
-// ============================================
-// 3. UPDATED TASK CONTROLLER - TaskController.php
-// ============================================
 namespace App\Http\Controllers;
 
 use App\Models\Task;

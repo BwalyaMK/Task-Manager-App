@@ -1,8 +1,5 @@
 <?php
 
-// ============================================
-// 7. TASK RESOURCE - Http/Resources/TaskResource.php
-// ============================================
 namespace App\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
