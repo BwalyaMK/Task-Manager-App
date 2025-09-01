@@ -1,4 +1,4 @@
-<script lang="js">
+<script setup lang="js">
 import { useForm } from '@inertiajs/vue3'
 import GuestLayout from '@/layouts/GuestLayout.vue'
 

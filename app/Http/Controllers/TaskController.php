@@ -42,7 +42,13 @@ class TaskController extends Controller
         return Inertia::render('TaskManager', [
             'tasks' => $tasks,
             'categories' => $categories,
-            'filters' => $request->only(['search', 'category', 'status'])
+            'filters' => $request->only(['search', 'category', 'status']),
+            'flash' => [
+                'success' => session('success'),
+                'error' => session('error'),
+                'info' => session('info'),
+                'warning' => session('warning'),
+            ]
         ]);
     }
 
